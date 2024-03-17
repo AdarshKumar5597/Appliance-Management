@@ -6,20 +6,17 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --bg: #0d0c22;
   --text: #fff;
   --bgSoft: #2d2b42;
   --textSoft: #e5e5e5;
   --btn: #3673fd;
 }
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -30,8 +27,7 @@
 }
 
 body {
-  background-color: var(--bg);
-  color: var(--text)
+  color: var(--text);
 }
 
 @layer utilities {
@@ -45,7 +41,6 @@ a {
   text-decoration: none;
   transition: color 0.15s ease;
 }
-
 
 @media (max-width: 768px) {
   .navbarLinks {
@@ -95,5 +90,78 @@ a {
 @media (max-width: 640px) {
   .conatiner {
     width: 480px;
+  }
+}
+
+.container-background {
+  width: 100%;
+  background: linear-gradient(45deg, #edeef1, #f7f3f3);
+  background-size: 300% 300%;
+  animation: color 5s ease-in-out infinite;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+  padding: 0.25rem;
+  width: 100%;
+  font-size: 14px;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem 0;
+  color: rgba(51, 65, 85, 1);
+  transition: all 0.15s ease-in-out;
+  font-weight: 500;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.sphere {
+  animation: rotateImg 1s linear infinite;
+  overflow: hidden;
+}
+@keyframes rotateImg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }
