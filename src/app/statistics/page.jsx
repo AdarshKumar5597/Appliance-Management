@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./statistics.module.css";
 import Image from "next/image";
 import ChartComponent from "@/components/chartComponent/ChartComponent";
-import { getTasks, getUsers } from "@/lib/data";
+import { getApplianceStatus, getTasks, getUsers } from "@/lib/data";
 import { auth } from "@/lib/auth";
 
 const StatsPage = async () => {
@@ -10,6 +10,12 @@ const StatsPage = async () => {
   const users = session ? await getUsers() : [];
   const tasks = session ? await getTasks() : [];
   console.log("Users: ", users, "Tasks: ", tasks);
+
+  const status = await getApplianceStatus();
+
+  if (status) {
+    console.log("Status: ", status);
+  }
 
   const assignedTasksLength = tasks?.filter(
     (task) => task.status === "assigned"
@@ -59,11 +65,11 @@ const StatsPage = async () => {
           className={`w-[25%] rounded-xl ${styles.glassCard} flex p-2 gap-7 justify-center items-center lg:w-[25%] md:w-[100%] sm:w-[100%] sm:justify-center sm:items-center sm:rounded-xl sm:p-2 sm:glassCard    xs:w-[100%] xs:justify-center xs:items-center xs:rounded-xl xs:p-2 sm:glassCard`}
         >
           <div className="w-[50%] flex justify-end">
-            <Image src="/users.png" alt="brands-png" width={125} height={125} />
+            <Image src="/fan.png" alt="brands-png" width={125} height={125} />
           </div>
           <div className="flex flex-col center items-start w-[50%]">
-            <h1 className="text-3xl font-bold text-white">Users</h1>
-            <p className="font-semibold text-lg">{users?.length}</p>
+            <h1 className="text-3xl font-bold text-white">Fan</h1>
+            <p className="font-semibold text-lg">{status?.fan === 0 ? "Off" : "On"}</p>
           </div>
         </div>
 
@@ -71,11 +77,11 @@ const StatsPage = async () => {
           className={`w-[25%] rounded-xl ${styles.glassCard} flex p-2 gap-7 justify-center items-center lg:w-[25%] md:w-[100%] sm:w-[100%] sm:justify-center sm:items-center sm:rounded-xl sm:p-2 sm:glassCard    xs:w-[100%] xs:justify-center xs:items-center xs:rounded-xl xs:p-2 sm:glassCard`}
         >
           <div className="w-[50%] flex justify-end">
-            <Image src="/list.png" alt="brands-png" width={125} height={125} />
+            <Image src="/bulb.png" alt="brands-png" width={125} height={125} />
           </div>
           <div className="flex flex-col center items-start w-[50%]">
-            <h1 className="text-3xl font-bold text-white">Tasks</h1>
-            <p className="font-semibold text-lg">{tasks?.length}</p>
+            <h1 className="text-3xl font-bold text-white">Bulb</h1>
+            <p className="font-semibold text-lg">{status?.bulb === 0 ? "Off" : "On"}</p>
           </div>
         </div>
 
@@ -83,11 +89,12 @@ const StatsPage = async () => {
           className={`w-[25%] rounded-xl ${styles.glassCard} flex p-2 gap-7 justify-center items-center lg:w-[25%] md:w-[100%] sm:w-[100%] sm:justify-center sm:items-center sm:rounded-xl sm:p-2 sm:glassCard    xs:w-[100%] xs:justify-center xs:items-center xs:rounded-xl xs:p-2 sm:glassCard`}
         >
           <div className="w-[50%] flex justify-end">
-            <Image src="/check.png" alt="brands-png" width={125} height={125} />
+            <Image src="/lightbulb.png" alt="brands-png" width={125} height={125} />
           </div>
           <div className="flex flex-col center items-start w-[50%]">
-            <h1 className="text-3xl font-bold text-white">Done</h1>
-            <p className="font-semibold text-lg">{completedTasksLength}</p>
+            <h1 className="text-3xl font-bold text-white">LED</h1>
+            {console.log("Status: ", status?.led.split("'").join(""))}
+            <div className={`h-[20px] w-[80px]`} style={{ backgroundColor: status?.led.split("'").join("")}}></div>
           </div>
         </div>
 
@@ -96,15 +103,16 @@ const StatsPage = async () => {
         >
           <div className="w-[50%] flex justify-end">
             <Image
-              src="/checklist.png"
+              src="/ac.png"
               alt="brands-png"
               width={125}
               height={125}
             />
           </div>
           <div className="flex flex-col center items-start w-[50%]">
-            <h1 className="text-3xl font-bold text-white">Todo</h1>
-            <p className="font-semibold text-lg">{assignedTasksLength}</p>
+            <h1 className="text-3xl font-bold text-white">AC</h1>
+            <p className="font-semibold text-lg">{status?.ac.state === 0 ? "Off" : "On"}</p>
+            <p className="font-semibold text-lg">{status?.ac.state === 1 && status?.ac.temp+"%"}</p>
           </div>
         </div>
       </div>

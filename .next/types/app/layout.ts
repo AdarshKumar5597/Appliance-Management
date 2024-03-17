@@ -1,4 +1,4 @@
-// File: C:\Users\KIIT\Documents\PROJECTS\Next14 Task Manager\src\app\layout.js
+// File: C:\Users\KIIT\Documents\PROJECTS\Appliance Management\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
