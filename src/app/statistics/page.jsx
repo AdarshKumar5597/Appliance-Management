@@ -6,6 +6,11 @@ import { getApplianceStatus } from "@/lib/data"
 import { auth } from "@/lib/auth"
 import { getHistory } from "@/lib/action"
 
+export const metadata = {
+  title: "About Page",
+  description: "About us",
+}
+
 const StatsPage = async () => {
   const session = await auth()
 
