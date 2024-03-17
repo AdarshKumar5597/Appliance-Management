@@ -2,6 +2,12 @@ import React from "react";
 import styles from "./register.module.css";
 import RegisterForm from "@/components/registerForm/RegisterForm";
 
+export const metadata = {
+  title: "Register Page",
+  description: "Register",
+}
+
+
 const RegisterPage = () => {
   return (
     <div className="container flex items-center justify-center">
