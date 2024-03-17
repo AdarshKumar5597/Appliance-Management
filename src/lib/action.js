@@ -5,10 +5,6 @@ import { signIn, signOut } from "./auth";
 import bcrypt from "bcryptjs";
 
 
-export const handleGithubLogin = async (event) => {
-  await signIn("github");
-};
-
 export const handleLogout = async (event) => {
   await signOut({ redirect: false });
 };
