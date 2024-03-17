@@ -1,18 +1,14 @@
-"use client";
-import React, { useState } from "react";
-import NavLink from "./navLink/navLink";
-import Image from "next/image";
-import { handleLogout } from "@/lib/action";
-import { useRouter } from "next/navigation";
+"use client"
+import React, { useState } from "react"
+import NavLink from "./navLink/navLink"
+import Image from "next/image"
+import { handleLogout } from "@/lib/action"
+import { useRouter } from "next/navigation"
 
 const Links = ({ session }) => {
-  const [open, setOpen] = useState(false);
-  const router = useRouter();
+  const [open, setOpen] = useState(false)
+  const router = useRouter()
   const links = [
-    {
-      title: "Home",
-      path: "/",
-    },
     {
       title: "About",
       path: "/about",
@@ -20,12 +16,12 @@ const Links = ({ session }) => {
     { title: "Update", path: "/update" },
 
     { title: "Stats", path: "/statistics" },
-  ];
+  ]
 
   async function refreshPageOnLogout() {
-    await handleLogout();
-    router.replace("/login");
-    router.refresh();
+    await handleLogout()
+    router.replace("/login")
+    router.refresh()
   }
 
   return (
@@ -38,7 +34,7 @@ const Links = ({ session }) => {
           <>
             <button
               onClick={async () => {
-                await refreshPageOnLogout();
+                await refreshPageOnLogout()
               }}
               className="p-[10px] cursor-pointer font-bold bg-white rounded-[10px] text-[#0d0c22]"
             >
@@ -55,7 +51,7 @@ const Links = ({ session }) => {
         height={30}
         src={"/menu.png"}
         onClick={() => {
-          setOpen((prev) => !prev);
+          setOpen((prev) => !prev)
         }}
         className="menuButton"
       ></Image>
@@ -70,7 +66,7 @@ const Links = ({ session }) => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Links;
+export default Links
