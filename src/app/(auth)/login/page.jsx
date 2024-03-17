@@ -2,6 +2,11 @@ import styles from "./login.module.css"
 import LoginForm from "@/components/loginForm/LoginForm"
 import { auth } from "@/lib/auth"
 
+export const metadata = {
+  title: "Login Page",
+  description: "Login",
+}
+
 const LoginPage = async () => {
   const session = await auth()
   return (
