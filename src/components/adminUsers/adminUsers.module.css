@@ -1,0 +1,58 @@
+.user {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+  }
+  
+  .userButton{
+    padding: 5px 10px;
+    background-color: rgba(220, 20, 60, 0.593);
+    color: var(--textColor);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .addTaskButton{
+    padding: 5px 10px;
+    background-color: rgba(7, 102, 18, 0.593);
+    color: var(--textColor);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .row {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+  }
+  
+  .col {
+    flex-grow: 1;
+  }
+  
+  .alone {
+    flex-grow: 1/2;
+  }
+  
+  .col img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 1024px) {
+    .row {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }

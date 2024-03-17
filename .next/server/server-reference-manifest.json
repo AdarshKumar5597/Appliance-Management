@@ -1,0 +1,186 @@
+{
+  "node": {
+    "2d9dc027b79f800d115e4623e7e5a8b2fe21a507": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "43d76aba6f73e7c4a3e90ed60d9f11a0c3e06457": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "6bb875951e4b0057a8b14eca7e19d188c0d39364": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "71f3c7084012ec63562a688620c2ddbd136720c8": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "ad8567ccbc4439dddc00ce23ccff98c36c4c706a": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "bb8e66a9719a06965954a9f212977d370f0e4cb7": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "c481cf3381a5ca12e2359ab9308c7223cb752188": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "c64f27e1a0d72f65246dd5b940dacba395ea43d6": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "d6d82d0caebfb8f0bb7d8deed609ac26ddb33e57": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    },
+    "eb8eea612d543102e58174be421a27b4fe10e33e": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!",
+        "app/admin/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/task/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/statistics/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=true!",
+        "app/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CKIIT%5C%5CDocuments%5C%5CPROJECTS%5C%5CNext14%20Task%20Manager%5C%5Csrc%5C%5Clib%5C%5Caction.js%22%2C%5B%22addTask%22%2C%22handleLogout%22%2C%22login%22%2C%22deleteUser%22%2C%22addUser%22%2C%22registerUser%22%2C%22handleGithubLogin%22%2C%22deleteTask%22%2C%22getTasksOfUser%22%2C%22updateTask%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/(auth)/login/page": "rsc",
+        "app/admin/page": "action-browser",
+        "app/task/page": "action-browser",
+        "app/statistics/page": "action-browser",
+        "app/add/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "wskPz1RZaoJWs51KVbqUCbhEQjUNgIEENoshSrwe1Ys="
+}
