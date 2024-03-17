@@ -1,107 +1,9 @@
 "use server";
-import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
-import { Task, User } from "./models";
+import { History, User } from "./models";
 import { connectToDb } from "./utils";
 import { signIn, signOut } from "./auth";
 import bcrypt from "bcryptjs";
-import { NextResponse } from "next/server";
 
-export const addTask = async (formData) => {
-  const { title, desc, userId, status } = formData;
-
-  try {
-    await connectToDb();
-    const newTask = await new Task({
-      title,
-      desc,
-      userId,
-      status,
-    }).save();
-
-    const user = await User.findById(userId);
-    await user.tasks.push(newTask._id);
-    await user.save();
-
-    console.log(newTask);
-    revalidatePath("/task");
-    revalidatePath("/admin");
-  } catch (error) {
-    console.log(error);
-    console.log("Something went wrong");
-  }
-};
-
-export const updateTask = async (formData) => {
-  const { id, title, desc, status } = formData;
-
-  try {
-    await connectToDb();
-    const updatedTask = await Task.findByIdAndUpdate(id, {
-      title,
-      desc,
-      status,
-    });
-    console.log(updatedTask);
-    revalidatePath("/task");
-    revalidatePath("/admin");
-  } catch (error) {
-    console.log(error);
-    console.log("Something went wrong while updating the Task");
-  }
-};
-
-export const deleteTask = async (id) => {
-  console.log("Inside deleteTask");
-  try {
-    await connectToDb();
-    await Task.findByIdAndDelete(id);
-    revalidatePath("/task");
-    revalidatePath("/admin");
-  } catch (error) {
-    console.log(error);
-    console.log("Something went wrong while deleting the Task");
-  }
-};
-
-export const addUser = async (formData) => {
-  const { username, email, img, isAdmin, isUser, isThirdPerson } = formData;
-
-  const salt = await bcrypt.genSalt(10);
-  const hashedPassword = await bcrypt.hash(password, salt);
-
-  try {
-    await connectToDb();
-    const newUser = await new User({
-      username,
-      email,
-      password: hashedPassword,
-      img,
-      isAdmin,
-      isUser,
-      isThirdPerson,
-    }).save();
-    console.log(newUser);
-    revalidatePath("/admin");
-  } catch (error) {
-    console.log(error);
-    console.log("Something went wrong");
-  }
-
-  console.log(title, desc, slug);
-};
-
-export const deleteUser = async (id) => {
-  try {
-    await connectToDb();
-    await Task.deleteMany({ userId: id });
-    await User.findByIdAndDelete(id);
-    revalidatePath("/admin");
-  } catch (error) {
-    console.log(error);
-    console.log("Something went wrong while deleting the User");
-  }
-};
 
 export const handleGithubLogin = async (event) => {
   await signIn("github");
@@ -112,7 +14,7 @@ export const handleLogout = async (event) => {
 };
 
 export const registerUser = async (formData) => {
-  const { username, email, password, img, passwordRepeat } = formData;
+  const { username, email, password, passwordRepeat } = formData;
 
   console.log(formData);
 
@@ -137,7 +39,6 @@ export const registerUser = async (formData) => {
       username,
       email,
       password: hashedPassword,
-      img: img ? img.name : "",
     }).save();
 
     console.log(newUser);
@@ -164,15 +65,37 @@ export const login = async (formData) => {
   }
 };
 
-export const getTasksOfUser = async (userId) => {
+export const createHistory = async (formData) => {
+  console.log(formData);
   try {
-    await connectToDb();
-    const tasks = await Task.find({ userId })
-      .sort({ createdAt: -1 })
-      .populate("userId", "username");
-    return NextResponse.json(tasks);
+    connectToDb();
+    const newHistory = await new History(formData).save();
+    return { success: true };
   } catch (error) {
     console.log(error);
-    throw new Error("Failed to fetch tasks");
+    throw new Error("Error saving history");
+  } 
+}
+
+export const getHistory = async () => {
+  try {
+    await connectToDb();
+    const history = await History.find({ });
+    return history;
+  } catch (error) {
+    console.log(error);
+    throw new Error("Error getting history");
   }
-};
+}
+
+export const getUserName = async (id) => {
+  try {
+    await connectToDb();
+    const user = await User.findOne({ _id: id});
+    return user.username;
+  }
+  catch (error) {
+    console.log(error);
+    throw new Error("Error getting username");
+  }
+}

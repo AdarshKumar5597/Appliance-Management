@@ -24,10 +24,10 @@ export default function Home() {
         </p>
         <div className="flex gap-x-[20px]">
           <button className="p-[20px] min-w-[120px] cursor-pointer border-none rounded-[5px] bg-[#00FF66] text-[#0d0c22] font-bold">
-            <Link href="/about">Update</Link>
+            <Link href="/update">Update</Link>
           </button>
           <button className="p-[15px] min-w-[120px] cursor-pointer border-none font-bold rounded-[5px] bg-white text-[#0d0c22]">
-          <Link href="/task">Status</Link>
+          <Link href="/statistics">Status</Link>
           </button>
         </div>
         <div className="w-[500px] h-[50px] relative grayscale-[1]">

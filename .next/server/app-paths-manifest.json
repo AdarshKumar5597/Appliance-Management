@@ -1,9 +1,6 @@
 {
   "/page": "app/page.js",
-  "/task/page": "app/task/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/statistics/page": "app/statistics/page.js",
-  "/admin/page": "app/admin/page.js",
-  "/not-found": "app/not-found.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/update/page": "app/update/page.js",
+  "/statistics/page": "app/statistics/page.js"
 }

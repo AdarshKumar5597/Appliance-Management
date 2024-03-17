@@ -60,13 +60,6 @@ const RegisterForm = () => {
           name="passwordRepeat"
           {...register("passwordRepeat", { required: true })}
         />
-        <input
-          className="p-[20px] rounded-[5px] border-none outline-none bg-[#2d2b42] text-white"
-          type="file"
-          placeholder="Image"
-          name="img"
-          {...register("img")}
-        />
 
         <button
           type="submit"

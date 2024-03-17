@@ -17,11 +17,9 @@ const Links = ({ session }) => {
       title: "About",
       path: "/about",
     },
+    { title: "Update", path: "/update" },
 
-    {
-      title: "Task",
-      path: "/task",
-    },
+    { title: "Stats", path: "/statistics" },
   ];
 
   async function refreshPageOnLogout() {
@@ -38,18 +36,6 @@ const Links = ({ session }) => {
         ))}
         {session?.user ? (
           <>
-            {session?.user?.isAdmin ? (
-              <NavLink item={{ title: "Admin", path: "/admin" }}></NavLink>
-            ) : (
-              session?.user?.isUser && (
-                <NavLink item={{ title: "Add", path: "/add" }}></NavLink>
-              )
-            )}
-            {
-              session?.user?.isAdmin && (
-                <NavLink item={{ title: "Stats", path: "/statistics" }}></NavLink>
-              )
-            }
             <button
               onClick={async () => {
                 await refreshPageOnLogout();

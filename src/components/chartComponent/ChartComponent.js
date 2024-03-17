@@ -8,8 +8,9 @@ const ChartComponent = (props) => {
     const options = props.options;
 
   return (
-    <div className='h-[80%] w-[80%]'>
+    <div className='h-[80%] w-[80%] relative'>
         <Doughnut data={chartData} options={options} />
+        <p className="font-semibold text-lg absolute top-[50%] -translate-x-[60%] left-[50%]">{props.type}</p>
     </div>
   )
 }

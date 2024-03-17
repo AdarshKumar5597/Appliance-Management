@@ -14,9 +14,6 @@ const LoginPage = async () => {
           <LoginForm session={session}/>
         </div>
       </div>
-      <form action={handleGithubLogin}>
-        <button className="w-[100%] p-[20px] cursor-pointer underline">Login With Github</button>
-      </form>
     </div>
   );
 };
