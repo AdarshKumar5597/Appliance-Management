@@ -7,8 +7,8 @@ import { auth } from "@/lib/auth"
 import { getHistory } from "@/lib/action"
 
 export const metadata = {
-  title: "About Page",
-  description: "About us",
+  title: "Stats Page",
+  description: "Statistics",
 }
 
 const StatsPage = async () => {
