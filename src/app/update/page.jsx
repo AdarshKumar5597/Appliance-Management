@@ -2,6 +2,11 @@ import Image from "next/image"
 import { auth } from "@/lib/auth"
 import AddPageComponent from "@/components/addPageComponent/AddPageComponent"
 
+export const metadata = {
+  title: "Update Page",
+  description: "Update Appliance settings",
+}
+
 const AddPage = async () => {
   const session = await auth()
 
