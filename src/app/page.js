@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="w-full flex font-mono text-black px-8 pl-12">
       <div className="flex flex-col gap-y-7 flex-1">
-        <h1 className="text-[56px] font-bold ">Task Manager</h1>
+        <h1 className="text-[56px] font-bold ">Appliance Manager</h1>
         <p className="text-[20px]">
           An efficient platform for managing appliances and Checking the
           progress.
