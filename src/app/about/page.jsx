@@ -22,7 +22,7 @@ const AboutPage = () => {
           <li>
             <p className="font-bold">Monitor Performance:</p>
             <p>
-              Gain valuable insights into your appliances' health and
+              Gain valuable insights into your appliances&apos; health and
               efficiency.
             </p>
           </li>
