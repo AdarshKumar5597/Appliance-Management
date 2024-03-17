@@ -1,4 +1,3 @@
-import { handleGithubLogin } from "@/lib/action"
 import styles from "./login.module.css"
 import LoginForm from "@/components/loginForm/LoginForm"
 import { auth } from "@/lib/auth"
@@ -14,11 +13,6 @@ const LoginPage = async () => {
           <LoginForm session={session} />
         </div>
       </div>
-      <form action={handleGithubLogin}>
-        <button className="w-[100%] p-[20px] cursor-pointer underline text-black">
-          Login With Github
-        </button>
-      </form>
     </div>
   )
 }
